@@ -1,0 +1,51 @@
+.slider{
+    min-width: 200px;    
+    position: relative;
+}
+
+.slider .label{
+    height: 10px;
+}
+
+.left-slider, .right-slider{
+   color:wheat;
+   position: absolute;
+   padding: 5px;
+}
+
+.left-slider{
+   
+}
+
+.right-slider{
+    float: right;
+    right: 0px;
+}
+
+.slider-panel{
+    height: 30px;   
+    background-color: green;
+}
+
+#minValue{
+    padding: 5px;
+}
+
+#maxValue{
+    padding: 5px;
+    float: right;
+}
+
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.fa-circle:before {
+    content: "\f111";
+}
